@@ -1,0 +1,11 @@
+<h1> LOG ANALYSIS WITH SYSMON <\h1>
+Q1:
+try to find Event ID 1 related to Process creation.
+in this example:
+1. The user (Gabr) executed sha256sum.exe to calculate the hash of IDM.exe from the Desktop folder.
+2. The parent process was a cmd.exe instance launched via Cmder.
+3. The presence of hash values (MD5, SHA256, IMPHASH) suggests this file may be undergoing verification or analysis.
+4. If this event was unexpected or unauthorized, it could indicate suspicious behavior, such as file enumeration or hash computation by malware.
+
+Q2:
+
