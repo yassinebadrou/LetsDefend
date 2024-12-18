@@ -8,4 +8,6 @@ in this example:
 4. If this event was unexpected or unauthorized, it could indicate suspicious behavior, such as file enumeration or hash computation by malware.
 
 Q2:
-
+answer : fodhelper.exe
+fodhelper.exe is a trusted executable signed by Microsoft and is designed to run with auto-elevated privileges.
+This means that when it is executed, it bypasses the User Account Control (UAC) prompt and runs with administrative rights, making it a target for attackers aiming to perform UAC bypasses.
